@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html,
+body {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c234d;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 15px;
+  color: #0e1133;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.h3,
+h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}/*# sourceMappingURL=main.css.map */

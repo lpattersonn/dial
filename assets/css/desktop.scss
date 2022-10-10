@@ -1,0 +1,32 @@
+@import "main";
+
+// General
+main {
+  width: 100%;
+}
+
+// Header Block
+.haeder-section {
+  background-color: $background-color;
+  width: 100%;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    grid-gap: 0 20px;
+    &__image {
+      img {
+        max-width: 519px;
+      }
+    }
+    &__text {
+      text-align: left;
+      h1 {
+        max-width: 500px;
+      }
+    }
+  }
+}
