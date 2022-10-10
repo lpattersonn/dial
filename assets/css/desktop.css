@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 html,
 body {
   font-size: 10px;
@@ -49,6 +50,7 @@ p {
 
 .haeder-section {
   background-color: #f9f9f9;
+  padding: 100px 0;
 }
 .haeder-section__wrapper {
   display: grid;
