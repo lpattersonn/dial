@@ -9,7 +9,7 @@ if (get_row_layout() == "block-main_header") {
 
     echo "<section class='haeder-section'>";
     echo "<div class='haeder-section__wrapper'>";
-            echo '<div class="haeder-section__wrapper__image" style="background_image: url('.$background_image['url'].')">';
+            echo '<div class="haeder-section__wrapper__image" style="background-image: url('.$background_image['url'].')">';
                 echo '<img src='.$main_image['url'].' />';
             echo "</div>";
             echo "<div class='haeder-section__wrapper__text'>";

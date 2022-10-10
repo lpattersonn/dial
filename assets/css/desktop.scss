@@ -2,6 +2,12 @@
 
 // General
 
+// Page header
+.page-header-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
 // Header Block
 .haeder-section {
   background-color: $background-color;
@@ -21,20 +27,20 @@
     &__text {
       text-align: left;
       h1 {
-        max-width: 500px;
+        max-width: 514px;
+      }
+      p {
+        max-width: 570px;
       }
       &__buttons {
         button {
           display: inline-block;
           background-color: $bs-indigo;
-          border-style: solid;
-          border-width: 2px;
           border-radius: 16px;
-          border: 2px solid #000;
+          border: 2px solid $bs-indigo;
           width: 187px;
-          height: 71px;
           margin: 0 12px 0 0;
-          padding: 8px 20px 0 22px;
+          padding: 15px 20px;
           color: #fff;
           font-family: "Roboto", Sans-serif;
           font-size: 2rem;

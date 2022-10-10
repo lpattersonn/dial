@@ -39,6 +39,12 @@ h3 {
 
 p {
   font-size: 1.8rem;
+  color: #505056;
+}
+
+.page-header-wrapper {
+  width: 100%;
+  text-align: center;
 }
 
 .haeder-section {
@@ -60,19 +66,19 @@ p {
   text-align: left;
 }
 .haeder-section__wrapper__text h1 {
-  max-width: 500px;
+  max-width: 514px;
+}
+.haeder-section__wrapper__text p {
+  max-width: 570px;
 }
 .haeder-section__wrapper__text__buttons button {
   display: inline-block;
   background-color: #6610f2;
-  border-style: solid;
-  border-width: 2px;
   border-radius: 16px;
-  border: 2px solid #000;
+  border: 2px solid #6610f2;
   width: 187px;
-  height: 71px;
   margin: 0 12px 0 0;
-  padding: 8px 20px 0 22px;
+  padding: 15px 20px;
   color: #fff;
   font-family: "Roboto", Sans-serif;
   font-size: 2rem;
