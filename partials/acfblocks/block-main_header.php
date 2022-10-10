@@ -16,8 +16,8 @@ if (get_row_layout() == "block-main_header") {
                 echo "<h1>$header_text</h1>";
                 echo "<p>$sub_text</p>";
                 echo "<div class='haeder-section__wrapper__text__buttons'>";
-                    echo '<button><a href='.$first_button['url'].'>'.$first_button['title'].'</a></button>';
-                    echo '<button><a href='.$second_button['url'].'>'.$second_button['title'].'</a></button>';
+                    echo '<a href='.$first_button['url'].'><button>'.$first_button['title'].'</button></a>';
+                    echo '<a href='.$second_button['url'].'><button>'.$second_button['title'].'</button></a>';
                 echo "</div>";
             echo "</div>";
         echo "</div>";

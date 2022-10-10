@@ -1,22 +1,18 @@
 @import "main";
 
 // General
-main {
-  width: 100%;
-}
 
 // Header Block
 .haeder-section {
   background-color: $background-color;
-  width: 100%;
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 0 20px;
     align-items: center;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 15px;
-    grid-gap: 0 20px;
     &__image {
       img {
         max-width: 519px;
@@ -26,6 +22,30 @@ main {
       text-align: left;
       h1 {
         max-width: 500px;
+      }
+      &__buttons {
+        button {
+          display: inline-block;
+          background-color: $bs-indigo;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 16px;
+          border: 2px solid #000;
+          width: 187px;
+          height: 71px;
+          margin: 0 12px 0 0;
+          padding: 8px 20px 0 22px;
+          color: #fff;
+          font-family: "Roboto", Sans-serif;
+          font-size: 2rem;
+          font-weight: 500;
+          line-height: 22px;
+          &:hover {
+            background-color: #fff;
+            border-color: $bs-indigo;
+            color: $bs-indigo;
+          }
+        }
       }
     }
   }
