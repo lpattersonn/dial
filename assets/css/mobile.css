@@ -1,1 +1,86 @@
-/*# sourceMappingURL=mobile.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+html,
+body {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 4.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c234d;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 15px;
+  color: #0e1133;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.h3,
+h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
+p {
+  font-size: 1.8rem;
+  color: #505056;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 4.4rem;
+  }
+  h2 {
+    font-size: 3.6rem;
+  }
+  .haeder-section {
+    padding: 70px 0;
+  }
+  .haeder-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .haeder-section__wrapper__image img {
+    width: clamp(290px, 100vw, 500px);
+  }
+  .haeder-section__wrapper__text {
+    text-align: center;
+  }
+  .haeder-section__wrapper__text h1 {
+    max-width: 100%;
+  }
+  .haeder-section__wrapper__text p {
+    max-width: 100%;
+  }
+  .haeder-section__wrapper__text__buttons button {
+    width: 180px;
+    margin: 7px 5px;
+    padding: 12px 16px;
+    color: #fff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1.8rem;
+  }
+  .haeder-section__wrapper__text__buttons button:hover {
+    background-color: #fff;
+    border-color: #6610f2;
+    color: #6610f2;
+  }
+}/*# sourceMappingURL=mobile.css.map */

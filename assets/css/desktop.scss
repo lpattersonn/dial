@@ -2,13 +2,23 @@
 
 // General
 
-// Page header
+// Nav
+#site-header {
+  background-color: $background-color;
+  nav {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 15px;
+  }
+}
+
+// block-title
 .page-header-wrapper {
   width: 100%;
   text-align: center;
 }
 
-// Header Block
+// block-main_header
 .haeder-section {
   background-color: $background-color;
   padding: 100px 0;

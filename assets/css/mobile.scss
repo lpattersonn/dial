@@ -1,0 +1,50 @@
+@import "main";
+
+@include media-down($mobile-screen) {
+  // General
+  h1 {
+    font-size: 4.4rem;
+  }
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  // Header Block
+  .haeder-section {
+    padding: 70px 0;
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &__image {
+        img {
+          width: clamp(290px, 100vw, 500px);
+        }
+      }
+      &__text {
+        text-align: center;
+        h1 {
+          max-width: 100%;
+        }
+        p {
+          max-width: 100%;
+        }
+        &__buttons {
+          button {
+            width: 180px;
+            margin: 7px 5px;
+            padding: 12px 16px;
+            color: #fff;
+            font-family: "Roboto", Sans-serif;
+            font-size: 1.8rem;
+            &:hover {
+              background-color: #fff;
+              border-color: $bs-indigo;
+              color: $bs-indigo;
+            }
+          }
+        }
+      }
+    }
+  }
+}

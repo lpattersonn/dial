@@ -43,6 +43,15 @@ p {
   color: #505056;
 }
 
+#site-header {
+  background-color: #f9f9f9;
+}
+#site-header nav {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
 .page-header-wrapper {
   width: 100%;
   text-align: center;

@@ -799,5 +799,6 @@ function twentytwenty_get_elements_array() {
 function style_sheet() {
 	wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'));
 	wp_enqueue_style('desktop', get_theme_file_uri('assets/css/desktop.css'));
+	wp_enqueue_style('mobile', get_theme_file_uri('assets/css/mobile.css'));
 }
 add_action('wp_enqueue_scripts', 'style_sheet');

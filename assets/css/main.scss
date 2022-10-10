@@ -31,6 +31,7 @@ $bs-gradient: linear-gradient(
   rgba(255, 255, 255, 0.15),
   rgba(255, 255, 255, 0)
 );
+$mobile-screen: 1000px;
 
 html,
 body {
@@ -73,4 +74,17 @@ h3 {
 p {
   font-size: 1.8rem;
   color: #505056;
+}
+
+// Mixins
+@mixin media-down($arg) {
+  @media (max-width: $arg) {
+    @content;
+  }
+}
+
+@mixin media-up($arg) {
+  @media (min-width: $arg) {
+    @content;
+  }
 }
