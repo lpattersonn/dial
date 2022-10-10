@@ -83,4 +83,54 @@ p {
     border-color: #6610f2;
     color: #6610f2;
   }
+  .block-features__wrapper__text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 60px 0;
+    align-items: center;
+  }
+  .block-features__wrapper__text div {
+    text-align: center;
+  }
+  .block-features__wrapper__text div p {
+    margin-bottom: 0;
+  }
+  .block-features__wrapper__text a button {
+    font-size: 1.8rem;
+    margin: 30px 0 0 0;
+  }
+  .block-features__wrapper__text a button:hover {
+    background-color: #fff;
+    border-color: #6610f2;
+    color: #6610f2;
+  }
+  .block-features__wrapper__features {
+    display: flex;
+    flex-direction: column;
+  }
+  .block-features__wrapper__features .feature {
+    padding: 40px 40px 38px;
+    text-align: center;
+  }
+  .block-features__wrapper__features .feature img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 0 0 20px 0;
+  }
+  .block-features__wrapper__features .feature h2 {
+    font-size: 2.4rem;
+  }
+  .block-features__wrapper__features .feature button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .block-features__wrapper__features .feature button:hover {
+    font-weight: 700;
+    text-decoration: underline;
+  }
 }/*# sourceMappingURL=mobile.css.map */

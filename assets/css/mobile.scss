@@ -47,4 +47,59 @@
       }
     }
   }
+
+  // block-features
+  .block-features__wrapper {
+    &__text {
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 60px 0;
+      align-items: center;
+      div {
+        text-align: center;
+        p {
+          margin-bottom: 0;
+        }
+      }
+      a {
+        button {
+          font-size: 1.8rem;
+          margin: 30px 0 0 0;
+          &:hover {
+            background-color: #fff;
+            border-color: $bs-indigo;
+            color: $bs-indigo;
+          }
+        }
+      }
+    }
+    &__features {
+      display: flex;
+      flex-direction: column;
+      .feature {
+        padding: 40px 40px 38px;
+        text-align: center;
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin: 0 0 20px 0;
+        }
+        h2 {
+          font-size: 2.4rem;
+        }
+        button {
+          background-color: transparent;
+          border: none;
+          font-size: 1.6rem;
+          font-weight: 500;
+          &:hover {
+            font-weight: 700;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
 }

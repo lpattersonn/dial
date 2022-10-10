@@ -8,7 +8,7 @@
   nav {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 30px 15px;
+    padding: 30px 20px;
   }
 }
 
@@ -29,7 +29,7 @@
     align-items: center;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px;
     &__image {
       img {
         max-width: 519px;
@@ -49,7 +49,8 @@
           background-color: $bs-indigo;
           border-radius: 16px;
           border: 2px solid $bs-indigo;
-          width: 187px;
+          width: fit-content;
+          min-width: 187px;
           margin: 0 12px 0 0;
           padding: 15px 20px;
           color: #fff;
@@ -57,11 +58,91 @@
           font-size: 2rem;
           font-weight: 500;
           line-height: 22px;
+          transition: 250ms ease-out;
           &:hover {
             background-color: #fff;
             border-color: $bs-indigo;
             color: $bs-indigo;
           }
+        }
+      }
+    }
+  }
+}
+
+// block-features
+.block-features__wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  &__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 0 60px 0;
+    div {
+      p {
+        margin-bottom: 0;
+      }
+    }
+    a {
+      button {
+        line-height: 52px;
+        display: inline-block;
+        background-color: #fff0;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #e7eaef;
+        border-radius: 30px;
+        text-align: center;
+        height: 49px;
+        padding: 0 40px;
+        font-family: "Roboto", Sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 22px;
+        transition: 250ms ease-out;
+        &:hover {
+          background-color: #fff;
+          border-color: $bs-indigo;
+          color: $bs-indigo;
+        }
+      }
+    }
+  }
+  &__features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    .feature {
+      border: 1px solid #eef0f4;
+      padding: 48px 48px 46px;
+      border-radius: 10px;
+      transition: 250ms ease-out;
+      &:hover {
+        margin: 5px 0 0 0;
+        box-shadow: 0 40px 40px 0 rgb(14 17 51 / 10%);
+      }
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 0 20px 0;
+      }
+      h2 {
+        font-size: 3rem;
+      }
+      button {
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        font-weight: 500;
+        transition: 250ms ease-out;
+        &:hover {
+          font-weight: 700;
+          text-decoration: underline;
         }
       }
     }
