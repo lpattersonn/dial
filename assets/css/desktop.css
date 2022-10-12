@@ -110,6 +110,7 @@ p {
   max-width: 1300px;
   margin: 0 auto;
   padding: 60px 20px 0 20px;
+  background-color: #fff;
 }
 .block-features__wrapper__text {
   display: flex;
@@ -181,6 +182,9 @@ p {
   text-decoration: underline;
 }
 
+.block-perks {
+  background-color: #fff;
+}
 .block-perks .block-perks__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -188,7 +192,7 @@ p {
   max-width: 1300px;
   margin: 0 auto;
   align-items: center;
-  grid-gap: 0 30px;
+  grid-gap: 0 10px;
 }
 .block-perks .block-perks__wrapper__perks {
   display: flex;
