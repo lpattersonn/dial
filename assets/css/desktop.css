@@ -59,7 +59,7 @@ p {
 
 .haeder-section {
   background-color: #f9f9f9;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 .haeder-section__wrapper {
   display: grid;
@@ -109,7 +109,7 @@ p {
 .block-features__wrapper {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 60px 20px 0 20px;
 }
 .block-features__wrapper__text {
   display: flex;
@@ -184,9 +184,37 @@ p {
 .block-perks .block-perks__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 100px 20px;
+  padding: 60px 20px 0 20px;
   max-width: 1300px;
   margin: 0 auto;
+  align-items: center;
+  grid-gap: 0 30px;
+}
+.block-perks .block-perks__wrapper__perks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.block-perks .block-perks__wrapper__perks .perk {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 3px solid #e8eaef;
+  padding: 15px 0;
+}
+.block-perks .block-perks__wrapper__perks .perk:hover {
+  border-right: 3px solid #6610f2;
+}
+.block-perks .block-perks__wrapper__perks .perk p {
+  margin: 0 0 0 10px;
+}
+.block-perks .block-perks__wrapper__perks .perk img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .block-perks .block-perks__wrapper__image img {
   width: clamp(290px, 100vw, 500px);

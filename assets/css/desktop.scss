@@ -21,7 +21,7 @@
 // block-main_header
 .haeder-section {
   background-color: $background-color;
-  padding: 100px 0;
+  padding: 60px 0;
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -74,7 +74,7 @@
 .block-features__wrapper {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 60px 20px 0 20px;
   &__text {
     display: flex;
     flex-direction: row;
@@ -154,9 +154,36 @@
   .block-perks__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 100px 20px;
+    padding: 60px 20px 0 20px;
     max-width: 1300px;
     margin: 0 auto;
+    align-items: center;
+    grid-gap: 0 30px;
+    &__perks {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: left;
+      .perk {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-right: 3px solid #e8eaef;
+        padding: 15px 0;
+        &:hover {
+          border-right: 3px solid $bs-indigo;
+        }
+        p {
+          margin: 0 0 0 10px;
+        }
+        img {
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
     &__image {
       img {
         width: clamp(290px, 100vw, 500px);

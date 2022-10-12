@@ -15,7 +15,7 @@ if (get_row_layout() == "block-perks") {
                         $perks_image = get_sub_field('perks_image');
                         $perks_text = get_sub_field('perks_text');
                         echo "<div class='perk'>";
-                            echo '<img src='.$perks_image['url'].'/>';
+                            echo '<img src='.$perks_image['url'].' />';
                             echo '<p>'.$perks_text.'</p>';
                         echo "</div>";
                     }
@@ -23,7 +23,7 @@ if (get_row_layout() == "block-perks") {
             echo "</div>";
 
             echo "<div class='block-perks__wrapper__image'>";
-                echo '<img src='.$section_main_image['url'].'/>';
+                echo '<img src='.$section_main_image['url'].' />';
             echo "</div>";
 
             echo "<div class='block-perks__wrapper__text'>";

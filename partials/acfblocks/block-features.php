@@ -23,7 +23,7 @@
                             $feature_subheading = get_sub_field("feature_subheading");
                             $feature_button = get_sub_field("feature_button");
                             echo "<div class='feature'>";
-                                echo '<img src='.$feature_image['url'].'/>';
+                                echo '<img src='.$feature_image['url'].' />';
                                 echo "<h2>$feature_heading</h2>";
                                 echo "<p>$feature_subheading</p>";
                                 echo '<a href='.$feature_button['url'].'><button>'.$feature_button['title'].'</button></a>';
