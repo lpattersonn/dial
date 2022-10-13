@@ -133,4 +133,82 @@ p {
     font-weight: 700;
     text-decoration: underline;
   }
+  .block-perks {
+    background-color: #fff;
+  }
+  .block-perks .block-perks__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px 0 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    grid-gap: 0 10px;
+  }
+  .block-perks .block-perks__wrapper__perks {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+  }
+  .block-perks .block-perks__wrapper__perks .perk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: none;
+    border-bottom: 3px solid #e8eaef;
+    padding: 10px 15px;
+  }
+  .block-perks .block-perks__wrapper__perks .perk:hover {
+    border-right: none;
+    border-bottom: 3px solid #6610f2;
+  }
+  .block-perks .block-perks__wrapper__perks .perk:hover p {
+    color: #6610f2;
+  }
+  .block-perks .block-perks__wrapper__perks .perk p {
+    margin: 0 0 0 10px;
+  }
+  .block-perks .block-perks__wrapper__perks .perk img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .block-perks .block-perks__wrapper__image img {
+    width: clamp(290px, 100vw, 500px);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .block-perks .block-perks__wrapper__text {
+    margin: 30px 0 0 0;
+    text-align: center;
+  }
+  .block-perks .block-perks__wrapper__text h2 {
+    max-width: 100%;
+  }
+  .block-perks .block-perks__wrapper__text a button {
+    display: inline-block;
+    background-color: #6610f2;
+    border-radius: 16px;
+    border: 2px solid #6610f2;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 187px;
+    margin: 0 12px 0 0;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 22px;
+    transition: 250ms ease-out;
+  }
+  .block-perks .block-perks__wrapper__text a button:hover {
+    background-color: #fff;
+    border-color: #6610f2;
+    color: #6610f2;
+  }
 }/*# sourceMappingURL=mobile.css.map */
