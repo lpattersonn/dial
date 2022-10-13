@@ -209,6 +209,7 @@ p {
 }
 .block-perks .block-perks__wrapper__perks .perk:hover {
   border-right: 3px solid #6610f2;
+  color: #6610f2;
 }
 .block-perks .block-perks__wrapper__perks .perk p {
   margin: 0 0 0 10px;
