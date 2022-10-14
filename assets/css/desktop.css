@@ -216,6 +216,9 @@ p {
 .block-perks .block-perks__wrapper__perks .perk p {
   margin: 0 0 0 10px;
 }
+.block-perks .block-perks__wrapper__perks .perk:hover img {
+  filter: invert(12%) sepia(99%) saturate(6309%) hue-rotate(266deg) brightness(91%) contrast(110%);
+}
 .block-perks .block-perks__wrapper__perks .perk img {
   width: 35px;
   height: 35px;
