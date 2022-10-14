@@ -30,7 +30,7 @@ h6 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 3.4rem;
 }
 
 .h3,
@@ -253,4 +253,51 @@ p {
   background-color: #fff;
   border-color: #6610f2;
   color: #6610f2;
+}
+
+.block-signup .block-signup__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 60px auto 0 auto;
+}
+.block-signup .block-signup__wrapper .block-signup__wrapper__text {
+  text-align: center;
+}
+.block-signup .block-signup__wrapper .block-signup__wrapper__blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  padding: 0 20px;
+  margin: 30px 0 0 0;
+}
+.block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up {
+  display: inline-block;
+  padding: 30px;
+  background-color: #ebf2fc;
+  border-radius: 20px;
+  height: 500px;
+  transition: 350ms ease-out;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up h3 {
+  font-size: 3.4rem;
+}
+.block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up button {
+  font-family: "Roboto", Sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #ff6b58;
+  border: 2px solid #ff6b58;
+  border-radius: 16px;
+  padding: 10px 20px;
+  margin: 0 0 30px 0;
+}
+.block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up button:hover {
+  border: 2px solid #fff;
+  color: #ff6b58;
+  background-color: #fff;
 }/*# sourceMappingURL=desktop.css.map */
