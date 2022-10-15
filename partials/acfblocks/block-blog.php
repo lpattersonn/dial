@@ -4,11 +4,12 @@ if (get_row_layout("block-blog")) {
     $post_type = get_sub_field("post_type");
     $section_title = get_sub_field("section_title");
     $section_subheading = get_sub_field("section_subheading");
+    $section_id = get_sub_field("section_id");
     // The Query
     $args = array( 'post_type' => $post_type, 'posts_per_page' => $number_of_blogs );
     $the_query = new WP_Query($args);
 
-    echo "<section class='block-blog'>";
+    echo "<section class='block-blog' id='$section_id'>";
         echo "<div class='block-blog__wrapper'>";
             echo "<div class='block-blog__wrapper__text'>";
                 echo "<h2>$section_title</h2>";

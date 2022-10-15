@@ -50,6 +50,105 @@ p {
   h2 {
     font-size: 3.6rem;
   }
+  #site-header {
+    background-color: #f9f9f9;
+  }
+  #site-header nav {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 20px 30px 20px;
+  }
+  #site-header nav .deskop-menu {
+    display: none !important;
+  }
+  #site-header nav .mobile-menu {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #site-header nav .mobile-menu .header-titles-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  #site-header nav .mobile-menu .header-titles-wrapper img {
+    max-width: 130px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 0 30px 0 0;
+  }
+  #site-header nav .mobile-menu .header-titles-wrapper #menu-open {
+    margin: 0 0 0 auto;
+    max-width: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #site-header nav .mobile-menu .mobile-menu-flyout {
+    position: fixed;
+    display: flex;
+    background-color: #ebf2fc;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  #site-header nav .mobile-menu .mobile-menu-flyout #menu-close {
+    margin: 0 0 0 auto;
+    max-width: 25px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #site-header nav .mobile-menu .mobile-menu-flyout ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  #site-header nav .mobile-menu .mobile-menu-flyout ul li {
+    list-style: none;
+    margin: 20px 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  #site-header nav .mobile-menu .mobile-menu-flyout ul li a {
+    text-decoration: none;
+    color: #0e1133;
+  }
+  #site-header nav .mobile-menu .mobile-menu-flyout ul li a:hover {
+    text-decoration: underline;
+    color: #6610f2;
+  }
+  #site-header nav .mobile-menu .mobile-menu-flyout .nav-buttons button {
+    display: inline-block;
+    background-color: #6610f2;
+    border-radius: 6px;
+    border: 2px solid #6610f2;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 187px;
+    margin: 0;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 22px;
+    transition: 250ms ease-out;
+  }
+  #site-header nav .mobile-menu .mobile-menu-flyout .nav-buttons button:hover {
+    background-color: #fff;
+    border-color: #6610f2;
+    color: #6610f2;
+  }
   .haeder-section {
     padding: 70px 0;
   }
@@ -66,6 +165,7 @@ p {
   }
   .haeder-section__wrapper__text h1 {
     max-width: 100%;
+    font-size: 4.4rem;
   }
   .haeder-section__wrapper__text p {
     max-width: 100%;
@@ -150,6 +250,7 @@ p {
     justify-content: center;
     flex-direction: row;
     text-align: center;
+    flex-wrap: wrap;
   }
   .block-perks .block-perks__wrapper__perks .perk {
     display: flex;
@@ -191,7 +292,7 @@ p {
   .block-perks .block-perks__wrapper__text a button {
     display: inline-block;
     background-color: #6610f2;
-    border-radius: 16px;
+    border-radius: 6px;
     border: 2px solid #6610f2;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -237,20 +338,26 @@ p {
     font-size: 3.4rem;
   }
   .block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up button {
+    line-height: 52px;
+    display: inline-block;
+    background-color: #ebf2fc;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    border-radius: 30px;
+    text-align: center;
+    height: 49px;
+    padding: 0 40px;
     font-family: "Roboto", Sans-serif;
     font-size: 2rem;
     font-weight: 500;
-    color: #fff;
-    background-color: #ff6b58;
-    border: 2px solid #ff6b58;
-    border-radius: 16px;
-    padding: 10px 20px;
-    margin: 0 0 30px 0;
+    line-height: 22px;
+    transition: 250ms ease-out;
   }
   .block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up button:hover {
-    border: 2px solid #fff;
-    color: #ff6b58;
-    background-color: #fff;
+    background-color: #6610f2;
+    border-color: #6610f2;
+    color: #fff;
   }
   .block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up img {
     width: clamp(290px, 50vw, 500px);
@@ -311,5 +418,22 @@ p {
   .block-blog .block-blog__wrapper .block-blog__wrapper__blogs .blog .blog__text a button:hover {
     font-weight: 700;
     text-decoration: underline;
+  }
+  #site-footer .section-inner {
+    max-width: 1300px;
+    margin: 60px auto 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #site-footer .section-inner a .footer-site-logo {
+    max-width: 130px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #site-footer .section-inner .footer-copyright {
+    margin: 40px 0 0 0;
   }
 }/*# sourceMappingURL=mobile.css.map */

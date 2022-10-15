@@ -3,7 +3,8 @@
         $section_title = get_sub_field("section_title");
         $section_subtitle = get_sub_field("section_subtitle");
         $section_button = get_sub_field("section_button");
-        echo "<section class='block-features'>";
+        $section_id = get_sub_field("section_id");
+        echo "<section class='block-features' id='$section_id'>";
             echo "<div class='block-features__wrapper'>";
 
                 echo "<div class='block-features__wrapper__text'>";

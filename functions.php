@@ -111,6 +111,12 @@ function twentytwenty_theme_support() {
 		)
 	);
 
+	if( function_exists('acf_add_options_page') ) {
+    
+		acf_add_options_page();
+		
+	}
+	
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
@@ -800,5 +806,8 @@ function style_sheet() {
 	wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'));
 	wp_enqueue_style('desktop', get_theme_file_uri('assets/css/desktop.css'));
 	wp_enqueue_style('mobile', get_theme_file_uri('assets/css/mobile.css'));
+	wp_register_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', null, null, true );
+    wp_enqueue_script('jquery');
+	wp_enqueue_script('script', get_theme_file_uri('assets/js/script.js'));
 }
 add_action('wp_enqueue_scripts', 'style_sheet');

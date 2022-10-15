@@ -20,8 +20,11 @@
                             echo '<div class="sign-up" style="background-image: url('.$sign_up_image['url'].')">';
                                 echo "<h3>$sign_up_title</h3>";
                                 echo "<p>$sign_up_title_subheading </p>";
-                                echo '<a href='.$sign_up_button['url'].'><button>'.$sign_up_button['title'].'</button></a>';
-                                // echo '<img src='.$sign_up_image['url'].' alt="" />';
+                                if ($sign_up_button['url'] == "#disabled") {
+                                    echo '<button disabled>'.$sign_up_button['title'].'</button>';
+                                } else {
+                                    echo '<a href='.$sign_up_button['url'].'><button>'.$sign_up_button['title'].'</button></a>';
+                                }
                             echo "</div>";
                         }
                     }

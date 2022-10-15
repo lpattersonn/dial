@@ -5,7 +5,8 @@ if (get_row_layout() == "block-perks") {
     $section_subtitle = get_sub_field('section_subtitle');
     $section_button = get_sub_field('section_button');
     $section_main_image = get_sub_field('section_main_image');
-    echo "<section class='block-perks'>";
+    $section_id = get_sub_field("section_id");
+    echo "<section class='block-perks' id='$section_id'>";
         echo "<div class='block-perks__wrapper'>";
 
             echo "<div class='block-perks__wrapper__perks'>";
