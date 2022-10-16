@@ -5,11 +5,11 @@
         $section_id = get_sub_field("section_id");
         echo "<section class='block-signup'>";
             echo "<div class='block-signup__wrapper'>";
-                echo "<div class='block-signup__wrapper__text'>";
+                echo "<div class='block-signup__wrapper__text' data-aos='fade-down' data-aos-duration='450' data-aos-delay='300'>";
                     echo "<h2>$section_title</h2s>";
                     echo "<p>$section_subtitle</p>";
                 echo "</div>";
-                echo '<div class="block-signup__wrapper__blocks" id='.$section_id.'>';
+                echo '<div class="block-signup__wrapper__blocks" id='.$section_id.' data-aos="fade-up" data-aos-duration="450" data-aos-delay="30">';
                     if (have_rows("user_signup")) {
                         while (have_rows("user_signup")) {
                             the_row();

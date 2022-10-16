@@ -801,13 +801,19 @@ function twentytwenty_get_elements_array() {
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
 
-
+// Header Styles And Scripts
 function style_sheet() {
 	wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'));
 	wp_enqueue_style('desktop', get_theme_file_uri('assets/css/desktop.css'));
 	wp_enqueue_style('mobile', get_theme_file_uri('assets/css/mobile.css'));
+	wp_enqueue_style('aosstyle', get_theme_file_uri('https://unpkg.com/aos@2.3.1/dist/aos.css'));
 	wp_register_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', null, null, true );
     wp_enqueue_script('jquery');
+	wp_register_script( 'aos', 'https://unpkg.com/aos@2.3.1/dist/aos.js', null, null, true );
+    wp_enqueue_script('aos');
 	wp_enqueue_script('script', get_theme_file_uri('assets/js/script.js'));
 }
 add_action('wp_enqueue_scripts', 'style_sheet');
+
+// Body Scripts
+// 

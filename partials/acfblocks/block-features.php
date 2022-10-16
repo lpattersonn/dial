@@ -4,10 +4,10 @@
         $section_subtitle = get_sub_field("section_subtitle");
         $section_button = get_sub_field("section_button");
         $section_id = get_sub_field("section_id");
-        echo "<section class='block-features' id='$section_id'>";
+        echo "<section class='block-features' id='.$section_id.'>";
             echo "<div class='block-features__wrapper'>";
 
-                echo "<div class='block-features__wrapper__text'>";
+                echo "<div class='block-features__wrapper__text' data-aos='fade-down' data-aos-duration='450' data-aos-delay='300'>";
                     echo "<div>";
                         echo "<h2>$section_title</h2>";
                         echo "<p>$section_subtitle</p>";
@@ -15,7 +15,7 @@
                     echo '<a href='.$section_button['url'].'><button>'. $section_button['title'].'</button></a>';
                 echo "</div>";
 
-                echo "<div class='block-features__wrapper__features'>";
+                echo "<div class='block-features__wrapper__features' data-aos='fade-up' data-aos-duration='450' data-aos-delay='300'>";
                     if (have_rows("features")) {
                         while (have_rows("features")) {
                             the_row();

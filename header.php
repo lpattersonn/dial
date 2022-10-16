@@ -25,7 +25,7 @@
 
     </head>
 
-    <body <?php body_class(); ?>>
+    <body <?php body_class(); ?> data-aos="fade-in" data-aos-duration="450" data-aos-delay="300">
 
         <?php
 		wp_body_open();
