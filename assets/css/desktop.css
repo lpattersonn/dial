@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 html,
 body {
+  background-color: #fff;
   font-size: 10px;
   font-family: "Roboto", sans-serif;
 }
@@ -50,9 +51,6 @@ p {
   max-width: 1300px;
   margin: 0 auto;
   padding: 20px 20px 30px 20px;
-}
-#site-header nav .mobile-menu {
-  display: none;
 }
 #site-header nav .deskop-menu {
   display: flex;
@@ -451,30 +449,6 @@ p {
   text-decoration: underline;
 }
 
-#site-footer {
-  background-color: #f9f9f9;
-}
-#site-footer .section-inner {
-  max-width: 1300px;
-  margin: 60px auto 0 auto;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-#site-footer .section-inner .footer-credits {
-  display: flex;
-  align-items: center;
-}
-#site-footer .section-inner a .footer-site-logo {
-  max-width: 130px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-#site-footer .section-inner .footer-copyright {
-  font-size: 1.6rem;
-}
-
 .block-scripts {
   display: flex;
   flex-direction: column;
@@ -547,4 +521,28 @@ p {
   background-color: #fff;
   border-color: #6610f2;
   color: #6610f2;
+}
+
+#site-footer {
+  background-color: #f9f9f9;
+}
+#site-footer .section-inner {
+  max-width: 1300px;
+  margin: 60px auto 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#site-footer .section-inner .footer-credits {
+  display: flex;
+  align-items: center;
+}
+#site-footer .section-inner a .footer-site-logo {
+  max-width: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#site-footer .section-inner .footer-copyright {
+  font-size: 1.6rem;
 }/*# sourceMappingURL=desktop.css.map */

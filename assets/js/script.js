@@ -2,6 +2,20 @@
   $(document).ready(function () {
     console.log("script.js loaded");
 
+    if ($(window).width() <= 1000) {
+      $(".mobile-menu").show();
+    } else {
+      $(".mobile-menu").hide();
+    }
+
+    $(window).resize(function () {
+      if ($(window).width() <= 1000) {
+        $(".mobile-menu").show();
+      } else {
+        $(".mobile-menu").hide();
+      }
+    });
+
     $(".mobile-menu-flyout").hide();
 
     $("#menu-open").click(function () {
