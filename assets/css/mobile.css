@@ -83,7 +83,7 @@ p {
   }
   #site-header nav .mobile-menu .header-titles-wrapper #menu-open {
     margin: 0 0 0 auto;
-    max-width: 30px;
+    width: 30px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -103,7 +103,7 @@ p {
   }
   #site-header nav .mobile-menu .mobile-menu-flyout #menu-close {
     margin: 0 0 0 auto;
-    max-width: 25px;
+    width: 25px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -151,7 +151,7 @@ p {
     color: #6610f2;
   }
   .haeder-section {
-    padding: 70px 0;
+    padding: 40px 0 70px 0;
   }
   .haeder-section__wrapper {
     display: flex;
