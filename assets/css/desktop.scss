@@ -551,6 +551,25 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      &__social {
+        max-width: 150px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        svg {
+          width: 25px;
+          height: 25px;
+          padding: 0 7px;
+          transition: 350ms ease-out;
+          filter: invert(24%) sepia(100%) saturate(7460%) hue-rotate(265deg)
+            brightness(90%) contrast(112%);
+          &:hover {
+            filter: invert(0%) sepia(4%) saturate(1207%) hue-rotate(162deg)
+              brightness(85%) contrast(105%);
+          }
+        }
+      }
       .footer-credits {
         display: flex;
         align-items: center;

@@ -582,6 +582,23 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+#site-footer .section-inner__two__social {
+  max-width: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#site-footer .section-inner__two__social svg {
+  width: 25px;
+  height: 25px;
+  padding: 0 7px;
+  transition: 350ms ease-out;
+  filter: invert(24%) sepia(100%) saturate(7460%) hue-rotate(265deg) brightness(90%) contrast(112%);
+}
+#site-footer .section-inner__two__social svg:hover {
+  filter: invert(0%) sepia(4%) saturate(1207%) hue-rotate(162deg) brightness(85%) contrast(105%);
+}
 #site-footer .section-inner__two .footer-credits {
   display: flex;
   align-items: center;
