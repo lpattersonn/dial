@@ -567,6 +567,11 @@
         font-weight: 500;
         line-height: 22px;
         transition: 250ms ease-out;
+        &:hover {
+          background-color: #fff;
+          border-color: $bs-indigo;
+          color: $bs-indigo;
+        }
       }
     }
     &__two {
