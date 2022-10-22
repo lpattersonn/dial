@@ -110,7 +110,7 @@ p {
   #site-header nav .mobile-menu .mobile-menu-flyout ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     padding: 0;
   }
   #site-header nav .mobile-menu .mobile-menu-flyout ul li {
