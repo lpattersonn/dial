@@ -44,6 +44,28 @@
         }
       }
       .nav-buttons {
+        display: flex;
+        flex-direction: row;
+        &__social {
+          max-width: 150px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          margin: 0 30px;
+          svg {
+            width: 20px;
+            height: 20x;
+            padding: 0 7px;
+            transition: 350ms ease-out;
+            filter: invert(0%) sepia(4%) saturate(1207%) hue-rotate(162deg)
+              brightness(85%) contrast(105%);
+            &:hover {
+              filter: invert(24%) sepia(100%) saturate(7460%) hue-rotate(265deg)
+                brightness(90%) contrast(112%);
+            }
+          }
+        }
         button {
           display: inline-block;
           background-color: $bs-indigo;
@@ -507,6 +529,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
+      grid-gap: 0 40px;
       padding: 30px 0 80px 0;
       &__text {
         display: flex;
@@ -558,15 +581,15 @@
         flex-wrap: wrap;
         align-items: center;
         svg {
-          width: 25px;
-          height: 25px;
+          width: 20px;
+          height: 20px;
           padding: 0 7px;
           transition: 350ms ease-out;
-          filter: invert(24%) sepia(100%) saturate(7460%) hue-rotate(265deg)
-            brightness(90%) contrast(112%);
+          filter: invert(0%) sepia(4%) saturate(1207%) hue-rotate(162deg)
+            brightness(85%) contrast(105%);
           &:hover {
-            filter: invert(0%) sepia(4%) saturate(1207%) hue-rotate(162deg)
-              brightness(85%) contrast(105%);
+            filter: invert(24%) sepia(100%) saturate(7460%) hue-rotate(265deg)
+              brightness(90%) contrast(112%);
           }
         }
       }

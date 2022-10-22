@@ -49,7 +49,7 @@
           flex-direction: column;
           align-items: flex-end;
           padding: 30px;
-          width: 100vw;
+          width: 60vw;
           height: 100vh;
           top: 0;
           bottom: 0;
@@ -80,18 +80,42 @@
             }
           }
           .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            &__social {
+              max-width: 150px;
+              display: flex;
+              flex-direction: row;
+              justify-content: end;
+              flex-wrap: wrap;
+              align-items: center;
+              margin: 0 0 40px auto;
+              svg {
+                width: 20px;
+                height: 20px;
+                padding: 0 0 0 14px;
+                transition: 350ms ease-out;
+                filter: invert(0%) sepia(4%) saturate(1207%) hue-rotate(162deg)
+                  brightness(85%) contrast(105%);
+                &:hover {
+                  filter: invert(24%) sepia(100%) saturate(7460%)
+                    hue-rotate(265deg) brightness(90%) contrast(112%);
+                }
+              }
+            }
             button {
               display: inline-block;
               background-color: $bs-indigo;
               border-radius: 6px;
               border: 2px solid $bs-indigo;
               width: fit-content;
-              min-width: 187px;
+              min-width: 160px;
               margin: 0;
               padding: 10px 20px;
               color: #fff;
               font-family: "Roboto", Sans-serif;
-              font-size: 1.8rem;
+              font-size: 1.6rem;
               font-weight: 500;
               line-height: 22px;
               transition: 250ms ease-out;
@@ -263,7 +287,7 @@
             border-radius: 6px;
             border: 2px solid $bs-indigo;
             width: fit-content;
-            min-width: 187px;
+            min-width: 160px;
             margin: 0 12px 0 0;
             padding: 10px 20px;
             color: #fff;
@@ -445,7 +469,7 @@
               width: -webkit-fit-content;
               width: -moz-fit-content;
               width: fit-content;
-              min-width: 187px;
+              min-width: 160px;
               margin: 10px 0 0 0;
               padding: 10px 20px;
               color: #fff;
@@ -470,18 +494,6 @@
           flex-wrap: wrap;
           align-items: center;
           margin: 30px 0 10px 0;
-          svg {
-            width: 25px;
-            height: 25px;
-            padding: 0 7px;
-            transition: 350ms ease-out;
-            filter: invert(24%) sepia(100%) saturate(7460%) hue-rotate(265deg)
-              brightness(90%) contrast(112%);
-            &:hover {
-              filter: invert(0%) sepia(4%) saturate(1207%) hue-rotate(162deg)
-                brightness(85%) contrast(105%);
-            }
-          }
         }
         .footer-credits {
           display: flex;

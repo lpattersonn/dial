@@ -17,8 +17,11 @@
     <div class="section-inner">
         <div class="section-inner__one">
             <div class="section-inner__one__text">
-                <h2>Stay In The Know</h2>
-                <p>Sign up to receive launch updates and more!</p>
+                <?php $signup_header = get_field("signup_header" ,"options"); 
+                $signup_text = get_field("signup_text", "options");
+                echo "<h2>$signup_header</h2>";
+                echo "<p>$signup_text</p>";
+                ?>
             </div>
             <div class="section-inner-one__form">
                 <?php include "partials/scripts/subscription-form.php"; ?>
