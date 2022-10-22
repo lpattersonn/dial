@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<main id="site-content">
+<main class="site-post">
 
     <?php
 
@@ -20,15 +20,18 @@ get_header();
 
 		while ( have_posts() ) {
 			the_post();
+			$title = get_the_title();
+			$image = get_the_post_thumbnail();
+			$content = get_the_content();
 
-			get_template_part( 'template-parts/content', get_post_type() );
+			echo "<h1>$title</h1>";
+			echo $image;
+			echo "<p>$content</p>";
 		}
 	}
 
 	?>
 
-</main><!-- #site-content -->
-
-<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
+</main>
 
 <?php get_footer(); ?>
