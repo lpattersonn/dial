@@ -50,7 +50,7 @@
 
             <div class="footer-credits">
 
-                <p class="footer-copyright">Copyright &copy;
+                <p class="footer-copyright">&copy;
                     <?php
                         $footer_text = get_field("footer_text", "options");
                                 echo date_i18n(
