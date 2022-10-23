@@ -315,10 +315,10 @@
       flex-direction: column;
       max-width: 1300px;
       margin: 60px auto 0 auto;
-      .block-signup__wrapper__text {
+      &__text {
         text-align: center;
       }
-      .block-signup__wrapper__blocks {
+      &__blocks {
         display: flex;
         flex-direction: column;
         padding: 0 20px;
@@ -329,6 +329,7 @@
           background-color: #ebf2fc;
           border-radius: 20px;
           height: 500px;
+          text-align: center;
           h3 {
             font-size: 3.4rem;
           }
@@ -368,11 +369,11 @@
   .block-blog {
     .block-blog__wrapper {
       width: 90%;
-      .block-blog__wrapper__text {
+      &__text {
         text-align: center;
         margin: 0 0 25px 0;
       }
-      .block-blog__wrapper__blogs {
+      &__blogs {
         display: flex;
         flex-direction: column;
         .blog {
@@ -386,7 +387,7 @@
             transition: 450ms ease-out;
             object-fit: cover;
           }
-          .blog__text {
+          &__text {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
