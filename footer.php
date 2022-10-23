@@ -52,11 +52,12 @@
 
                 <p class="footer-copyright">Copyright &copy;
                     <?php
+                        $footer_text = get_field("footer_text", "options");
                                 echo date_i18n(
                                     /* translators: Copyright date format, see https://www.php.net/manual/datetime.format.php */
                                     _x( 'Y', 'copyright date format', 'twentytwenty' )
                                 );
-                                ?>. All rights reserved.
+                       echo $footer_text; ?>
                 </p><!-- .footer-copyright -->
             </div><!-- .footer-credits -->
         </div>

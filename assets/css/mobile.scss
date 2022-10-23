@@ -182,6 +182,7 @@
         text-align: center;
         p {
           margin-bottom: 0;
+          max-width: 100%;
         }
       }
       a {
@@ -470,14 +471,19 @@
               width: -moz-fit-content;
               width: fit-content;
               min-width: 160px;
-              margin: 10px 0 0 0;
+              margin: 0 12px 0 0;
               padding: 10px 20px;
               color: #fff;
               font-family: "Roboto", Sans-serif;
-              font-size: 2rem;
+              font-size: 1.6rem;
               font-weight: 500;
               line-height: 22px;
               transition: 250ms ease-out;
+              &:hover {
+                background-color: #fff;
+                border-color: $bs-indigo;
+                color: $bs-indigo;
+              }
             }
           }
         }

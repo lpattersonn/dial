@@ -42,6 +42,7 @@ h3 {
 p {
   font-size: 1.8rem;
   color: #505056;
+  font-weight: 400;
 }
 
 #site-header {
@@ -205,6 +206,7 @@ p {
 }
 .block-features__wrapper__text div p {
   margin-bottom: 0;
+  max-width: 500px;
 }
 .block-features__wrapper__text a {
   text-decoration: none;
@@ -217,6 +219,7 @@ p {
   border-width: 2px;
   border-color: #000;
   border-radius: 30px;
+  color: #000;
   text-align: center;
   height: 49px;
   padding: 0 40px;
@@ -461,6 +464,7 @@ p {
   background-color: transparent;
   border: none;
   font-size: 1.5rem;
+  color: #000;
   font-weight: 500;
   transition: 250ms ease-out;
   padding: 0;
@@ -618,6 +622,7 @@ p {
 
 .site-post {
   max-width: 1300px;
+  margin: 0 auto;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;

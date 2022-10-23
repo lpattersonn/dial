@@ -42,6 +42,7 @@ h3 {
 p {
   font-size: 1.8rem;
   color: #505056;
+  font-weight: 400;
 }
 
 @media (max-width: 1000px) {
@@ -219,6 +220,7 @@ p {
   }
   .block-features__wrapper__text div p {
     margin-bottom: 0;
+    max-width: 100%;
   }
   .block-features__wrapper__text a button {
     font-size: 1.8rem;
@@ -498,14 +500,19 @@ p {
     width: -moz-fit-content;
     width: fit-content;
     min-width: 160px;
-    margin: 10px 0 0 0;
+    margin: 0 12px 0 0;
     padding: 10px 20px;
     color: #fff;
     font-family: "Roboto", Sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 22px;
     transition: 250ms ease-out;
+  }
+  #site-footer .section-inner__one .section-inner-one__form .optionalParent input[type=submit]:hover {
+    background-color: #fff;
+    border-color: #6610f2;
+    color: #6610f2;
   }
   #site-footer .section-inner__two {
     display: flex;
