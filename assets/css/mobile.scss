@@ -315,10 +315,10 @@
       flex-direction: column;
       max-width: 1300px;
       margin: 60px auto 0 auto;
-      &__text {
+      .block-signup__wrapper__text {
         text-align: center;
       }
-      &__blocks {
+      .block-signup__wrapper__blocks {
         display: flex;
         flex-direction: column;
         padding: 0 20px;

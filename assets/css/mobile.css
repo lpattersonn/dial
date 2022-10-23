@@ -345,16 +345,16 @@ p {
     max-width: 1300px;
     margin: 60px auto 0 auto;
   }
-  .block-signup .block-signup__wrapper__text {
+  .block-signup .block-signup__wrapper .block-signup__wrapper__text {
     text-align: center;
   }
-  .block-signup .block-signup__wrapper__blocks {
+  .block-signup .block-signup__wrapper .block-signup__wrapper__blocks {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     margin: 30px 0 0 0;
   }
-  .block-signup .block-signup__wrapper__blocks .sign-up {
+  .block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up {
     display: inline-block;
     padding: 30px;
     background-color: #ebf2fc;
@@ -362,10 +362,10 @@ p {
     height: 500px;
     text-align: center;
   }
-  .block-signup .block-signup__wrapper__blocks .sign-up h3 {
+  .block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up h3 {
     font-size: 3.4rem;
   }
-  .block-signup .block-signup__wrapper__blocks .sign-up button {
+  .block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up button {
     line-height: 52px;
     display: inline-block;
     background-color: #ebf2fc;
@@ -382,12 +382,12 @@ p {
     line-height: 22px;
     transition: 250ms ease-out;
   }
-  .block-signup .block-signup__wrapper__blocks .sign-up button:hover {
+  .block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up button:hover {
     background-color: #6610f2;
     border-color: #6610f2;
     color: #fff;
   }
-  .block-signup .block-signup__wrapper__blocks .sign-up img {
+  .block-signup .block-signup__wrapper .block-signup__wrapper__blocks .sign-up img {
     width: clamp(290px, 50vw, 500px);
     max-height: 300px;
     -o-object-fit: cover;
