@@ -20,15 +20,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Primary Meta Tags -->
-        <title>Vediai - Get Interview Help With Vediai.</title>
-        <meta name="title" content="Get Interview Help With Vediai!">
+        <title>Vediai - Get Interview Ready With Vedia</title>
+        <meta name="title" content="Get Interview Ready With Vedia!">
         <meta name="description"
             content="Vediai helps you strengthen your interview skills by connecting you to industry professionals.">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://metatags.io/">
-        <meta property="og:title" content="Get Interview Help With Vediai!">
+        <meta property="og:title" content="Get Interview Ready With Vedia!">
         <meta property="og:description"
             content="Vediai helps you strengthen your interview skills by connecting you to industry professionals.">
         <meta property="og:image"
@@ -37,7 +37,7 @@
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://metatags.io/">
-        <meta property="twitter:title" content="Get Interview Help With Vediai!">
+        <meta property="twitter:title" content="Get Interview Ready With Vedia!">
         <meta property="twitter:description"
             content="Vediai helps you strengthen your interview skills by connecting you to industry professionals.">
         <meta property="twitter:image"

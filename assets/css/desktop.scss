@@ -81,6 +81,7 @@
           font-weight: 500;
           line-height: 22px;
           transition: 250ms ease-out;
+          cursor: pointer;
           &:hover {
             background-color: #fff;
             border-color: $bs-indigo;
@@ -120,7 +121,7 @@
       text-align: left;
       h1 {
         max-width: 514px;
-        font-size: clamp(4.4rem, 6vw, 6.5rem);
+        font-size: clamp(4.4rem, 6vw, 6.1rem);
       }
       p {
         max-width: 570px;
@@ -141,6 +142,7 @@
           font-weight: 500;
           line-height: 22px;
           transition: 250ms ease-out;
+          cursor: pointer;
           &:hover {
             background-color: #fff;
             border-color: $bs-indigo;
@@ -191,6 +193,7 @@
         transition: 250ms ease-out;
         display: flex;
         align-items: center;
+        cursor: pointer;
         &:hover {
           background-color: $bs-indigo;
           border-color: $bs-indigo;
@@ -213,8 +216,8 @@
         box-shadow: 0 40px 40px 0 rgb(14 17 51 / 10%);
       }
       img {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         border-radius: 50%;
         object-fit: cover;
         margin: 0 0 20px 0;
@@ -228,6 +231,8 @@
         font-size: 1.6rem;
         font-weight: 500;
         transition: 250ms ease-out;
+        color: #000;
+        cursor: pointer;
         &:hover {
           font-weight: 700;
           text-decoration: underline;
@@ -273,8 +278,8 @@
             brightness(91%) contrast(110%);
         }
         img {
-          width: 35px;
-          height: 35px;
+          width: 60px;
+          height: 60px;
           border-radius: 50%;
           object-fit: cover;
         }
@@ -307,6 +312,7 @@
           font-weight: 500;
           line-height: 22px;
           transition: 250ms ease-out;
+          cursor: pointer;
           &:hover {
             background-color: #fff;
             border-color: $bs-indigo;
@@ -363,6 +369,7 @@
           font-weight: 500;
           line-height: 22px;
           transition: 250ms ease-out;
+          cursor: pointer;
           &:hover {
             background-color: $bs-indigo;
             border-color: $bs-indigo;
@@ -433,6 +440,7 @@
               transition: 250ms ease-out;
               padding: 0;
               margin: 0 auto 0 0;
+              cursor: pointer;
               &:hover {
                 font-weight: 700;
                 text-decoration: underline;
@@ -577,6 +585,7 @@
         font-weight: 500;
         line-height: 22px;
         transition: 250ms ease-out;
+        cursor: pointer;
         &:hover {
           background-color: #fff;
           border-color: $bs-indigo;
@@ -659,6 +668,7 @@
         font-weight: 500;
         line-height: 22px;
         transition: 250ms ease-out;
+        cursor: pointer;
         &:hover {
           background-color: #fff;
           border-color: $bs-indigo;
